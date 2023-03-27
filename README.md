@@ -18,7 +18,8 @@
 
 3. Algorithm description:
 
-Introduction
+- Introduction
+
 An Ising spin model can be considered a graph with nodes and edges, in which
 each node has a spin which can be positive (+1) or negative (-1). The spin
 of node v is denoted sv. The nodes have weights given by a vector h, and
@@ -38,7 +39,7 @@ state energy and is equal to minS E(S). Thus the problem of finding a ground
 state is a minimization problem
 
 
-The algorithm
+- The algorithm
 
 This problem on general graphs is NP-complete, but on trees, it is solvable in
 polynomial time.
@@ -49,7 +50,8 @@ on GNU/Linux. The algorithm should require no more than O(n log n) time
 and space. In particular, since J is an extremely sparse matrix, it should not be
 stored as a full matrix. 
 
-3 Input format
+
+- Input format
 
 Each input will be contained in a separate file containing text lines defined as
 follows. There are three fields: u, v, and weight. If u ̸= v the (J) weight is
