@@ -14,7 +14,8 @@
         - "run-scipy-model" -> enable/disable running scipy model
 
 2. Run application by navigating to the root of this project (where run.sh is located) and use:
-    - sh run.sh
+
+        sh run.sh
 
 3. Algorithm description:
 
