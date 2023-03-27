@@ -10,13 +10,11 @@
             "input-file-path": "./data/input1.txt",
             "expected-output": [-4, "+-++"]
         },
-        
         {
             "skip": false,
             "input-file-path": "./data/input2.txt",
             "expected-output": [-1, "++"]
         },
-        
         {
             "skip": false,
             "input-file-path": "./data/input3.txt",
