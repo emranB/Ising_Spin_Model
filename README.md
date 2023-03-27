@@ -27,7 +27,8 @@ spin is positive or negative, is known as the state. The energy of the system
 depends on the state and the weights given by h and J. 
 
 The equation for the system energy given by state S = (s1, ..., sn) is:
-E(S) = (1 <= i <= n) SUM(H_i * S_i) + (1 <= i < j <= n) SUM(J_ij * S_i * J_i)
+
+        E(S) = (1 <= i <= n) SUM(H_i * S_i) + (1 <= i < j <= n) SUM(J_ij * S_i * J_i)
 
 We are generally interested in finding a ground state, i.e., a state that minimizes
 the energy of the system. Put another way, a state Sg is a ground state if and
