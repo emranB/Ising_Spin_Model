@@ -1,0 +1,26 @@
+{
+    "input-file-path": "./data/input1.txt",
+    "debug": false,
+    "run-standalone-model": true,
+    "run-scipy-model": true,
+
+    "tests": [
+        {
+            "skip": false,
+            "input-file-path": "./data/input1.txt",
+            "expected-output": [-4, "+-++"]
+        },
+        
+        {
+            "skip": false,
+            "input-file-path": "./data/input2.txt",
+            "expected-output": [-1, "++"]
+        },
+        
+        {
+            "skip": false,
+            "input-file-path": "./data/input3.txt",
+            "expected-output": [-3, "+-+"]
+        }
+    ]
+}
