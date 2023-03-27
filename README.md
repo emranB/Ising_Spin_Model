@@ -51,16 +51,18 @@ Each input will be contained in a separate file containing text lines defined as
 follows. There are three fields: u, v, and weight. If u ̸= v the (J) weight is
 assigned to the edge between nodes u and v. If u = v, the (h) weight is assigned
 to that node. You may assume the weights are integers. Here is an example file:
-0 1 1
-1 2 1
-1 3 1
-0 0 -1
-1 1 -1
-2 2 -1
+
+        0 1 1
+        1 2 1
+        1 3 1
+        0 0 -1
+        1 1 -1
+        2 2 -1
 
 4 Output format
 The output should consist of two lines. The first should contain the ground
 state energy. The second should contain a ground state as a series of + and -.
 Output for the above problem could be:
--4
-+-++
+
+        -4
+        +-++
